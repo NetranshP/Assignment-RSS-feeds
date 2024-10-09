@@ -1,11 +1,11 @@
 ## News Classification System
 The News Classification System is designed to retrieve news articles from multiple RSS feeds, parse them, eliminate duplicates, and classify them into specific categories using a Celery worker for asynchronous processing. PostgreSQL serves as the database to store the news articles and their corresponding categories.
 News-Classification-
-│
-├── main.py                  # Main script responsible for fetching, parsing, and handling news articles
-├── celery_worker.py         # Celery worker for asynchronous classification and processing
-├── database.py              # Database schema and methods for database interactions
-├── README.md                # Documentation for the project
+
+1) main.py                  # Main script responsible for fetching, parsing, and handling news articles
+2) celery_worker.py         # Celery worker for asynchronous classification and processing
+3) database.py              # Database schema and methods for database interactions
+4) README.md                # Documentation for the project
 
 ## Components
 
